@@ -1,4 +1,4 @@
-# day-1-vue
+# Snøhetta | Process
 
 ## Project setup
 ```
