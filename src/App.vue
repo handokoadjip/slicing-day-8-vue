@@ -1,20 +1,23 @@
 <template>
   <HeaderComponent />
-  <main>
+  <main class="my-5 py-5">
     <router-view />
   </main>
+  <SectionFooterComponent />
   <FooterComponent />
 </template>
 
 <script>
 import $ from 'jquery';
 import HeaderComponent from "@/components/HeaderComponent.vue"
+import SectionFooterComponent from "@/components/SectionFooterComponent.vue"
 import FooterComponent from "@/components/FooterComponent.vue"
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
+    SectionFooterComponent,
     FooterComponent
   },
   mounted: function() {
